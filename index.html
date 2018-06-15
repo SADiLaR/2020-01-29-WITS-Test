@@ -217,24 +217,24 @@ CarpentryConnect Johannesburg 2018 is co-funded by the <a href="https://tenet-rc
 -->
 <h2 id="schedule">Schedule</h2>
 
-<!-- DO NOT EDIT SURVEY LINKS -->
-<p><em>Surveys</em></p>
-<p>Please be sure to complete this survey before the workshop.</p>
-<!--
-<p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
--->
-<p><a href="https://goo.gl/forms/h0CE8TyXSdnLyA2h2">https://goo.gl/forms/h0CE8TyXSdnLyA2h2</a><p>
+{% comment %} 
+ SURVEYS - DO NOT EDIT SURVEY LINKS 
+{% endcomment %}
+<h2 id="surveys">Surveys</h2>
 
-<!--
-{% if page.carpentry == "swc" %}
-  {% include sc/schedule.html %}
+{% if page.carpentry == "swc" %} 
+<p>Please be sure to complete these surveys before and after the workshop.</p>
+<p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
+<p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 {% elsif page.carpentry == "dc" %}
-  {% include dc/schedule.html %}
+  <p>Please be sure to complete these surveys before and after the workshop.</p>
+<p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
+<p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 {% elsif page.carpentry == "lc" %}
-  {% include lc/schedule.html %}
+<p>Ask your instructor about pre- and post-workshop Survey details.</p>
 {% endif %}
--->
+
+<hr/>
 
 <h2 id="shedule">Shedule</h2>
 
